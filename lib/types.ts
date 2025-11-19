@@ -31,6 +31,7 @@ enum Material {
   Patent_Leather = "patent_leather",
   Denim = "denim",
   Velvet = "velvet",
+  Textile = "textile",
   Other = "other",
 }
 
