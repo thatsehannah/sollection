@@ -3,8 +3,8 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function HomeScreen() {
   return (
-    <SafeAreaView>
-      <Text className='text-2xl'>Home Screen</Text>
+    <SafeAreaView className='h-screen bg-primary-300'>
+      <Text className='text-2xl text-primary-foreground'>Home</Text>
     </SafeAreaView>
   );
 }

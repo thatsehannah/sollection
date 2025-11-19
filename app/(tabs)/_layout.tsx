@@ -11,7 +11,7 @@ const TabIcon = ({ focused, title }: { focused: boolean; title: string }) => (
       className='size-6'
     /> */}
     <Text
-      className={`${focused ? "text-green-600" : "text-green-200"} text-xs w-full text-center mt-1`}
+      className={`${focused ? "text-accent" : "text-primary-foreground"} text-xs w-full text-center mt-1 font-jakarta`}
     >
       {title}
     </Text>
@@ -25,7 +25,7 @@ export default function TabLayout() {
         headerShown: false,
         tabBarShowLabel: false,
         tabBarStyle: {
-          backgroundColor: "white",
+          backgroundColor: "#0A1436",
           position: "absolute",
           borderTopWidth: 1,
           minHeight: 50,

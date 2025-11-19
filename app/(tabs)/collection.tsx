@@ -4,8 +4,8 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 const Collection = () => {
   return (
-    <SafeAreaView>
-      <Text>Collection</Text>
+    <SafeAreaView className='h-screen bg-primary-300'>
+      <Text className='text-2xl text-primary-foreground'>Collection</Text>
     </SafeAreaView>
   );
 };
